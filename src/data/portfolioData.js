@@ -211,10 +211,31 @@ export const certificationsData = [
     icon: "award"
   },
   {
-    title: "Advanced Data Structures & Algorithms",
-    issuer: "Technical Coursework",
-    date: "2025",
-    credential: "Graph Traversal, Dynamic Programming, C & Python",
+    title: "Introduction to UX/UI Design",
+    issuer: "IBM • Coursera",
+    date: "May 2026",
+    credential: "User Research, Wireframing, Visual Hierarchy & Prototyping",
+    icon: "palette"
+  },
+  {
+    title: "Solving Problems with Creative and Critical Thinking",
+    issuer: "IBM • Coursera",
+    date: "Nov 2025",
+    credential: "Root Cause Analysis, Creative Ideation & Decision Frameworks",
+    icon: "sparkles"
+  },
+  {
+    title: "Introduction to Object-Oriented Programming with Java",
+    issuer: "LearnQuest • Coursera",
+    date: "June 2025",
+    credential: "OOP Principles, Encapsulation, Polymorphism & Abstraction",
+    icon: "code"
+  },
+  {
+    title: "Introduction to HTML",
+    issuer: "Coursera",
+    date: "June 2025",
+    credential: "Web Standards, Semantic Markup & DOM Architecture",
     icon: "terminal"
   },
   {
