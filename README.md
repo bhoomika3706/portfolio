@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Bhoomika Shivani — Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Website](https://img.shields.io/badge/Live_Website-Visit_Portfolio-be7a8e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://bhoomika3706.github.io/portfolio)
+[![React](https://img.shields.io/badge/React-19-20232a?style=for-the-badge&logo=react&logoColor=61dafb)](https://react.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8)](https://tailwindcss.com)
+[![GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white)](https://bhoomika3706.github.io/portfolio)
 
-## Available Scripts
+> **Live Portfolio:** [https://bhoomika3706.github.io/portfolio](https://bhoomika3706.github.io/portfolio)
 
-In the project directory, you can run:
+A modern, minimal, and aesthetic personal portfolio website engineered with **React** and **Tailwind CSS**, styled in an obsidian dark aesthetic accented with a signature dark greyish-pink tone (#be7a8e).
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Hero Section**: Strong positioning statement at the intersection of AI, Web Development, and FinTech.
+- **About Me**: Academic background at SIES GST (**CGPA: 9.75**), core engineering pillars, and multilingual capabilities.
+- **Featured Projects**:
+  - **MarketCart**: Full-stack e-commerce app with Angular, Node.js, Express, SQLite, and client-side IndexedDB caching.
+  - **Graph Algorithm Visualizer**: Interactive visual demonstrations of Dijkstra\'s, Prim\'s, BFS, and DFS algorithms.
+  - **Typing Speed Test**: Python telemetry tool measuring real-time WPM and accuracy metrics.
+  - **Portfolio Website**: Modern dark tech portfolio built with React & Tailwind CSS.
+- **Skills Matrix**: Categorized grid covering Programming, Frontend, Backend, Databases, DevOps, and Business/FinTech.
+- **Professional Experience**: Web Development Intern at **Jio Platforms Ltd.** (May – July 2026).
+- **Milestone Timeline**: Growth progression from 2022 to present.
+- **Certifications & Achievements**: Academic and technical credentials.
+- **Visual Curation & Creative**: Highlighting professional portrait sketching (50+ artworks), urban photography, and Pinterest visual curation.
+- **Contact**: Direct email copy-to-clipboard, social links, and interactive inquiry form.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **Frontend**: React 19, JavaScript (ES6+), HTML5
+- **Styling**: Tailwind CSS, PostCSS, Custom CSS Variables
+- **Icons**: Zero-dependency optimized SVGs
+- **Deployment**: GitHub Pages (gh-pages)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Local Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`ash
+# Clone the repository
+git clone https://github.com/bhoomika3706/portfolio.git
 
-### `npm run eject`
+# Navigate into the project
+cd portfolio
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start development server
+npm start
+`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Runs the app at [http://localhost:3000/portfolio](http://localhost:3000/portfolio).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`ash
+npm run deploy
+`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2026 **Bhoomika Shivani**. All Rights Reserved.
