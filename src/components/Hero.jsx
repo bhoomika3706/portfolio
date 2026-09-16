@@ -1,5 +1,5 @@
 import React from 'react';
-import { personalData, statsData } from '../data/portfolioData';
+import { personalData } from '../data/portfolioData';
 import { GitHubIcon, LinkedInIcon, MailIcon, ArrowRightIcon } from './Icons';
 
 export const Hero = () => {
@@ -36,7 +36,7 @@ export const Hero = () => {
         </p>
 
         {/* Call to Actions */}
-        <div className="flex flex-wrap items-center justify-center gap-4 mb-14">
+        <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
           <a
             href="#projects"
             className="inline-flex items-center space-x-2 px-6 py-3 rounded-xl bg-roseAccent-500 hover:bg-roseAccent-600 text-white font-medium text-sm transition-all shadow-lg shadow-roseAccent-900/40 hover:shadow-roseAccent-900/60 hover:-translate-y-0.5"
@@ -53,7 +53,7 @@ export const Hero = () => {
         </div>
 
         {/* Social Icons Strip */}
-        <div className="flex items-center justify-center space-x-4 mb-16">
+        <div className="flex items-center justify-center space-x-4">
           <a
             href={personalData.github}
             target="_blank"
@@ -79,22 +79,6 @@ export const Hero = () => {
           >
             <MailIcon className="w-4 h-4" />
           </a>
-        </div>
-
-        {/* Stats Strip */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-          {statsData.map((stat, idx) => (
-            <div
-              key={idx}
-              className="p-4 rounded-xl bg-dark-card/70 border border-dark-border text-left hover:border-roseAccent-500/30 transition-all"
-            >
-              <div className="text-2xl sm:text-3xl font-bold text-white mb-1 font-mono text-roseAccent-300">
-                {stat.value}
-              </div>
-              <div className="text-xs font-semibold text-dark-text">{stat.label}</div>
-              <div className="text-[11px] text-dark-muted mt-0.5">{stat.detail}</div>
-            </div>
-          ))}
         </div>
 
       </div>

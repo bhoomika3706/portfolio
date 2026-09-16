@@ -1,8 +1,16 @@
 import React from 'react';
 import { creativeData } from '../data/portfolioData';
-import { PaletteIcon, CameraIcon, SparklesIcon } from './Icons';
+import { PaletteIcon, CameraIcon, ArtIcon, SparklesIcon } from './Icons';
 
 export const Creative = () => {
+  const getIcon = (type) => {
+    switch (type) {
+      case 'art': return <ArtIcon className="w-5 h-5" />;
+      case 'camera': return <CameraIcon className="w-5 h-5" />;
+      default: return <PaletteIcon className="w-5 h-5" />;
+    }
+  };
+
   return (
     <section id="creative" className="py-20 border-t border-dark-border/60">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
@@ -14,11 +22,11 @@ export const Creative = () => {
             <span>Creative Differentiator</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-white">Visual Curation & Creative Work</h2>
-          <p className="text-xs sm:text-sm text-dark-muted mt-1">Bridging architectural engineering with visual storytelling, moodboards, and photographic balance.</p>
+          <p className="text-xs sm:text-sm text-dark-muted mt-1">Bridging architectural engineering with fine portrait artistry, visual storytelling, and photographic balance.</p>
         </div>
 
-        {/* 2 Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* 3 Creative Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {creativeData.map((item, idx) => (
             <div
               key={idx}
@@ -27,9 +35,9 @@ export const Creative = () => {
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <div className="w-10 h-10 rounded-xl bg-roseAccent-500/10 border border-roseAccent-500/20 flex items-center justify-center text-roseAccent-400">
-                    {item.icon === 'palette' ? <PaletteIcon className="w-5 h-5" /> : <CameraIcon className="w-5 h-5" />}
+                    {getIcon(item.icon)}
                   </div>
-                  <span className="text-xs font-mono text-roseAccent-300 px-2.5 py-1 rounded bg-dark-surface border border-dark-border">
+                  <span className="text-[11px] font-mono text-roseAccent-300 px-2.5 py-1 rounded bg-dark-surface border border-dark-border">
                     {item.stats}
                   </span>
                 </div>

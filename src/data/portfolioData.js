@@ -12,13 +12,6 @@ export const personalData = {
   summary: "Computer Engineering student with strong academic record (CGPA: 9.75) and hands-on experience in developing and deploying full-stack web applications. Passionate about building scalable, user-centric software with a strong interest in Full-Stack Development, Machine Learning, and Financial Technology. Eager to apply technical knowledge, problem-solving skills, and creativity to real-world software engineering challenges."
 };
 
-export const statsData = [
-  { label: "Academic CGPA", value: "9.75", detail: "SIES GST (Top Academic Rank)" },
-  { label: "Internship", value: "Jio", detail: "Web Dev Intern | Jio Platforms Ltd." },
-  { label: "Flagship Stack", value: "Angular + Node", detail: "Full-Stack & Docker Deployed" },
-  { label: "10th / 12th CBSE", value: "95% / 90.6%", detail: "Bal Bharati Public School" }
-];
-
 export const aboutData = {
   intro: "Computer Engineering student with a strong academic record and hands-on experience in developing and deploying full-stack web applications. Passionate about building scalable, user-centric software with a strong interest in Full-Stack Development, Machine Learning, and Financial Technology.",
   pillars: [
@@ -225,13 +218,6 @@ export const certificationsData = [
     icon: "terminal"
   },
   {
-    title: "Minor in Management — Cost Accounting",
-    issuer: "SIES Graduate School of Technology",
-    date: "2025",
-    credential: "Cost Management, Budgeting & Break-Even Analysis",
-    icon: "trending"
-  },
-  {
     title: "Academic Excellence Award (CGPA: 9.75)",
     issuer: "SIES Graduate School of Technology",
     date: "2025",
@@ -242,20 +228,28 @@ export const certificationsData = [
 
 export const creativeData = [
   {
-    title: "Pinterest Content Creation & Curation",
-    category: "Visual Aesthetics & Moodboards",
-    desc: "Curating aesthetic boards focused on dark tech aesthetics, color harmonies, minimalist typography, and interface design. Visual curation that directly informs clean, balanced UI/UX design.",
-    tags: ["Dark Aesthetic", "Color Harmony", "UI Inspiration", "Visual Curation"],
-    stats: "Creative Curation",
-    icon: "palette"
+    title: "Professional Portrait Sketching",
+    category: "Fine Arts & Realism",
+    desc: "Professional portrait artist with a portfolio of 50+ hand-drawn artworks and realistic sketches. Mastering pencil shading, anatomical precision, tonal gradation, and fine detail—a disciplined visual craft that directly sharpens attention to detail in digital UI design.",
+    tags: ["Portrait Art", "50+ Artworks", "Pencil Realism", "Visual Precision", "Fine Art"],
+    stats: "50+ Artworks & Sketches",
+    icon: "art"
   },
   {
     title: "Photography & Media Work",
     category: "Visual Media & Framing",
-    desc: "Capturing architectural geometry, light-and-shadow play, and urban perspectives. Exploring how framing and negative space translate into balanced digital UI layouts.",
+    desc: "Capturing architectural geometry, dramatic light-and-shadow play, and urban perspectives. Exploring how framing, negative space, and visual weight translate into balanced digital UI layouts.",
     tags: ["Architectural Angles", "Light & Shadow", "Minimalist Framing", "Visual Balance"],
     stats: "Media & Perspective",
     icon: "camera"
+  },
+  {
+    title: "Pinterest Content Creation & Curation",
+    category: "Visual Aesthetics & Moodboards",
+    desc: "Curating aesthetic boards focused on dark tech aesthetics, color harmonies, minimalist typography, and interface design. Visual curation that directly inspires clean, balanced software design.",
+    tags: ["Dark Aesthetic", "Color Harmony", "UI Inspiration", "Visual Curation"],
+    stats: "Design Moodboards",
+    icon: "palette"
   }
 ];
 
